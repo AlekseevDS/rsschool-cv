@@ -22,9 +22,15 @@ is just a new challenge and victory is only a matter of time.
 * Figma, Photoshop
 * Agile, Scrum, Jira/TFS, Git
 
+# Experience
+Now I work on another engineering specialty
+(head of a group of development engineers).
+But I have several projects on the Github:
+[Pomodoro](https://github.com/AlekseevDS/RSShool2021-Android-task-Pomodoro.git),
+[Quiz](https://github.com/AlekseevDS/rsschool2021-Android-task-quiz.git)
+and etc.
 
-
-# Code Examples
+# Code Example
 
 ```
 class Main {
