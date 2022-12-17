@@ -1,3 +1,12 @@
+@font-face {
+    font-family: Roboto;
+    src: url("./assets/fonts/roboto/Roboto-Regular.ttf");
+}
+
+* {
+    box-sizing: border-box;
+}
+
 html, body {
     font-family: Arial, serif;
     font-size: 16px;
