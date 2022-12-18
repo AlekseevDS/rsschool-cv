@@ -41,20 +41,10 @@ html {
     border-radius: 50%;
     margin-top: 15px;
 }
-.header {
-/*TODO: Delete after project done*/
-border: 1px solid red;
-}
 
-
-.main {
-    /*TODO: Delete after project done*/
-    border: 1px solid blue;
-}
-
-.footer {
-    /*TODO: Delete after project done*/
-    border: 1px solid green;
+.img-rs {
+    width: 60px;
+    height: 25px;
 }
 
 .container {
@@ -66,9 +56,15 @@ border: 1px solid red;
 .nav-list {
     list-style: none;
     text-transform: uppercase;
-    padding: 0 20px;
+    padding-left: 0;
     line-height: 32px;
     transition: .3s;
+}
+
+.nav-item {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
 .main-container {
@@ -90,15 +86,14 @@ border: 1px solid red;
     letter-spacing: 4px;
     color: darkslateblue;
 }
-/*Пример стилизации ссылок:*/
 
-.nav-link {
-    text-decoration: none;
-    color: darkslateblue;
-    transition: color 0.5s;
-}
 
 .nav-link:hover {
     color: darkblue;
     background-color: #5488af; /* Цвет фона активного пункта */
+}
+a:any-link {
+    text-decoration: none;
+    color: darkslateblue;
+    transition: color 0.5s;
 }

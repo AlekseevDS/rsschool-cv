@@ -7,7 +7,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>cv-rss</title>
+    <title>cv-Alekseev</title>
 </head>
 <body>
     <header class = "header">
@@ -28,6 +28,7 @@
                 </ul>
             </nav>
         </div>
+        <hr>
 
     </header>
 
@@ -83,25 +84,93 @@
 
             <section class="section" id="experience">
                 <h2 class="section-title">Experience</h2>
-<!--                TODO: Add </br> and <a>-->
                 Now I work on another engineering specialty,
                 <br />
                 Head of a group of development engineers.
                 <br />
                 But I have several projects on the Github:
-                <br />
-                <a href="https://github.com/AlekseevDS/RSShool2021-Android-task-Pomodoro.git">Pomodoro</a>
-                <br />
-                <a href="https://github.com/AlekseevDS/rsschool2021-Android-task-quiz.git">Quiz</a>
-                and etc.
+
+                <ul class="experience-list">
+
+                    <li class="exp-item">
+                        <a href="https://github.com/AlekseevDS/RSShool2021-Android-task-Pomodoro.git">Pomodoro</a></li>
+
+                    <li class="exp-item">
+                        <a href="https://github.com/AlekseevDS/rsschool2021-Android-task-quiz.git">Quiz</a> and etc.</li>
+
+                </ul>
             </section>
+        </div>
+
+        <div class="container main-container">
+            <section class="section" id="code-example">
+                <h2 class="section-title">Code example</h2>
+                <pre><code>
+
+  Scanner scan = new Scanner(System.in);
+  int num = 1;
+  while (num != 0) {
+      num = scan.nextInt();
+      if (num != 0 && num % 2 == 0) {
+          System.out.println("even");
+      } else if (num % 2 != 0) {
+          System.out.println("odd");
+      }
+  }
+                </code></pre>
+            </section>
+
+            <section class="section" id="education">
+                <h2 class="section-title">education</h2>
+
+                <b> Voronezh State Technical University </b>
+                <ul class="edu-list">
+
+                    <li class="edu-item">Faculty of Automation and Robotization of Mechanical Engineering</li>
+
+                </ul>
+
+                <b> Self education </b>
+
+                <ul class="edu-list">
+
+                    <li class="edu-item">RSSchool JS/FE Pre-School 2022Q4</li>
+                    <li class="edu-item">RSSchool Android 2021</li>
+
+                </ul>
+
+
+                <h2 class="section-title">Language</h2>
+
+                <ul class="lng-list">
+
+                    <li class="lng-item"><b>Russian</b> - native speaker</li>
+                    <li class="lng-item"><b>English</b> - A2 (B1 in process...)</li>
+                    <li class="lng-item"><b>Hungarian</b> - A1</li>
+
+                </ul>
+            </section>
+
         </div>
     </main>
 
     <footer class = "footer">
         <div class="container main-container">
-            <p> *********** </p>
+
+            <section class="section">
+            <p>2022 <a href="https://github.com/AlekseevDS">AlekseevDS</a></p>
+            </section>
+
+            <section class="section">
+                <p><a href="https://rs.school/js/">
+                    <img class="img-rs" src="https://rs.school/images/rs_school_js.svg" alt="rslogo"></a></p>
+            </section>
+
         </div>
+
+
+
     </footer>
 </body>
 </html>
+
