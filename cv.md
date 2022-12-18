@@ -2,7 +2,6 @@
 
 # Contact Info
 * **E-mail:** [alekseevdms@gmail.com](mailto:alekseevdms@gmail.com)
-* **Phone:** +7 952 387 99 77
 * **Telegram:** [@A3DDD](https://t.me/a3ddd)
 * **GitHub:** [AlekseevDS](https://github.com/AlekseevDS)
 * **LinkedIn:** [Adspb](https://www.linkedin.com/in/dmitry-alekseev-adspb)
