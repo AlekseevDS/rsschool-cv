@@ -15,6 +15,8 @@
 
 /*keeping footer bottom page*/
 body {
+    background: url('./assets/background.jpg') blue;
+    background-size: 100%;
     min-height: 100vh;
     margin: 0;
     padding: 0;
@@ -28,7 +30,7 @@ body {
 }
 
 .img-photo {
-    width: 145px;
+    width: 150px;
     height: 150px;
     border-radius: 50%;
 }
@@ -67,6 +69,7 @@ html {
 .main-container {
     display: flex;
     flex-wrap: wrap;
+    margin: 5px 10px;
 }
 
 .section {
