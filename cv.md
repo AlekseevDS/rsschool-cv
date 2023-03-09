@@ -16,7 +16,7 @@ is just a new challenge and victory is only a matter of time.
 
 * HTML
 * CSS (Bootstrap, SASS/SCSS, BEM)
-* JavaScript (Fundamentals, ES6+, DOM, JSON, Asynchronous JavaScript)
+* JavaScript (ES6+, DOM, JSON, Async JS)
 * Java, Kotlin, SQL
 * Figma, Photoshop
 * Agile, Scrum, Jira/TFS, Git
@@ -26,30 +26,20 @@ Now I work on another engineering specialty
 (head of a group of development engineers).
 But I have several projects on the Github:
 [Pomodoro](https://github.com/AlekseevDS/RSShool2021-Android-task-Pomodoro.git),
-[Quiz](https://github.com/AlekseevDS/rsschool2021-Android-task-quiz.git)
+[Quiz](https://github.com/AlekseevDS/rsschool2021-Android-task-quiz.git),
+[Momentum](https://github.com/AlekseevDS/momentum.git)
 and etc.
 
 # Code Example
 
 ```
-class Main {
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        int num = 1;
-        while (num != 0) {
-            num = scan.nextInt();
-            if (num != 0 && num % 2 == 0) {
-                System.out.println("even");
-            } else if (num % 2 != 0) {
-                System.out.println("odd");
-            }
-        }
-    }
+function reverseInt (n) {
+    return Math.abs(n).toString().split("").reverse().join("");
 }
 ```
 # Education
 
-* **Voronezh State Technical University**
+* **State Technical University**
     * Faculty of Automation and Robotization of Mechanical Engineering
 * **Self education**
     * Java/Kotlin (books, online courses)
