@@ -3,29 +3,29 @@
     src: url("./assets/fonts/roboto/Roboto-Regular.ttf");
 }
 
-@media (max-width: 768px) {
-    .section {
-        width: 100%;
-    }
-}
+
+
 
 * {
 
     box-sizing: border-box;
 }
 
+main {
+    display: block;
+}
+
 /*keeping footer bottom page*/
 body {
     background: url('./assets/background.jpg') no-repeat;
-    background-size: 100%;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    background-size: cover;
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
     font-weight: 400;
     line-height: 1.5;
+
+
+
 }
 
 html {
@@ -69,6 +69,25 @@ html {
 .main-container {
     display: flex;
     flex-wrap: wrap;
+
+
+}
+
+@media (max-width: 650px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+@media (max-width: 400px) {
+    .code {
+        margin: 0 0 0 -50%;
+    }
+    .contact-list {
+        margin: 0 0 0 -50%;
+    }
+
 }
 
 .section {
